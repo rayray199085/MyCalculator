@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
-
+@property(nonatomic,weak)IBOutlet UITextField *textField1;
+@property(nonatomic,weak)IBOutlet UITextField *textField2;
+@property(nonatomic,weak)IBOutlet UILabel *label;
+-(IBAction)caculate;
 @end
 
